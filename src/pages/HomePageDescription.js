@@ -2,7 +2,7 @@ import Image from "next/image"
 import styles from '@/styles/Home.module.css'
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import Link from 'next/link';
-import Image from `next/image`
+
 
 
 function HomePageDescription() {

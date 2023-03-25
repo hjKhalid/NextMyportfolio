@@ -21,9 +21,9 @@ function descriptionabotme() {
                     <p>
                         Bengaluru, also known as Bangalore, is a vibrant and cosmopolitan city located in the southern part of India. It is the capital of the Indian state of Karnataka and is one of the fastest-growing cities in the country.
 
-                        Bengaluru has a rich history and has been a center of culture, art, and technology for centuries. It was founded in the 16th century by Kempegowda, a local chieftain, and was later ruled by various dynasties, including the Mughals and the British. The city's name is derived from the Kannada words "benda kaalu ooru," which means "the town of boiled beans."
+                        Bengaluru has a rich history and has been a center of culture, art, and technology for centuries. It was founded in the 16th century by Kempegowda, a local chieftain, and was later ruled by various dynasties, including the Mughals and the British. The city&apos;s name is derived from the Kannada words benda kaalu ooru, which means  &quot;the town of boiled beans. &quot;
 
-                        Today, Bengaluru is a major hub for information technology and is often referred to as the "Silicon Valley of India." It is home to many multinational companies and is a popular destination for tech professionals from all over the world. The city has a bustling startup scene and is known for its entrepreneurial spirit.
+                        Today, Bengaluru is a major hub for information technology and is often referred to as the &quot;Silicon Valley of India.&quot; It is home to many multinational companies and is a popular destination for tech professionals from all over the world. The city has a bustling startup scene and is known for its entrepreneurial spirit.
 
                         Apart from its technological prowess, Bengaluru is also renowned for its beautiful parks, gardens, and lakes. Lalbagh Botanical Garden, Cubbon Park, and Bannerghatta National Park are some of the popular green spaces in the city. Bengaluru is also famous for its food, which reflects the diverse cultural influences that have shaped the city over the years.
 
