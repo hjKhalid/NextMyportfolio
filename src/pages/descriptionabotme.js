@@ -3,6 +3,7 @@ import HomeWorkSharpIcon from '@mui/icons-material/HomeWorkSharp';
 import SchoolSharpIcon from '@mui/icons-material/SchoolSharp';
 import DownhillSkiingSharpIcon from '@mui/icons-material/DownhillSkiingSharp';
 import SportsGymnasticsSharpIcon from '@mui/icons-material/SportsGymnasticsSharp';
+import Image from 'next/image';
 
 function descriptionabotme() {
     return (
@@ -10,7 +11,7 @@ function descriptionabotme() {
 
             <div className='  currentLocation my-3' style={{ display: "flex" }}>
                 <div className=' container mx-3 img'>
-                    <img src="/pexels-vivek-chugh-739987.jpg" alt="" width="700" height="600"></img>
+                    < Image  src="/pexels-vivek-chugh-739987.jpg" alt="" width="700" height="600"></Image >
                 </div>
                 <div className='container LocationDescriptio'>
                     <h3><LocationOnSharpIcon />Current location</h3>
@@ -32,7 +33,7 @@ function descriptionabotme() {
             </div>
             <div className='NativePlace my-3'  style={{ display: "flex" }}>
                 <div className='container mx-3 img' >
-                    <img src="/pexels-dipanjan-saha-5183011.jpg" alt="" width="700" height="600"></img>
+                    < Image  src="/pexels-dipanjan-saha-5183011.jpg" alt="" width="700" height="600"></ Image >
                 </div>
                 <div className=' container NativePlaceDescriptio'>
                     <h3><HomeWorkSharpIcon />My Native</h3>
@@ -54,7 +55,7 @@ function descriptionabotme() {
             </div>
             <div className='Education my-3' style={{ display: "flex" }}>
                 <div className='container mx-3 img'>
-                    <img src="/pexels-pixabay-159866.jpg" alt="" width="700" height="600"></img>
+                    < Image  src="/pexels-pixabay-159866.jpg" alt="" width="700" height="600"></ Image >
                 </div>
                 <div className=' container EducationDescriptioon'>
                     <h3><SchoolSharpIcon />Educaion</h3>
@@ -75,7 +76,7 @@ function descriptionabotme() {
             </div>
             <div className='Skillset my-3' style={{ display: "flex" }}>
                 <div className='container mx-3 img'>
-                    <img src="/pexels-sora-shimazaki-5926382.jpg" alt="" width="700" height="600"></img>
+                    <Image src="/pexels-sora-shimazaki-5926382.jpg" alt="" width="700" height="600"></ Image >
                 </div>
                 <div className=' container SkillsetDescriptioon'>
                     <h3><DownhillSkiingSharpIcon />Skills Set</h3>
@@ -104,7 +105,7 @@ function descriptionabotme() {
             </div>
             <div className='Hobby my-3' style={{ display: "flex" }}>
                 <div className=' container mx-3 img'>
-                    <img src="/pexels-craig-adderley-1767014.jpg" alt="" width="700" height="600"></img>
+                    <Image  src="/pexels-craig-adderley-1767014.jpg" alt="" width="700" height="600"></ Image >
                 </div>
                 <div className=' container Hobby
              Descriptioon'>
