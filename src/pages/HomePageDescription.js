@@ -11,7 +11,7 @@ function HomePageDescription() {
 
       <div className={styles.frontPageDesigninig}>
         <div>
-          <Image src="./IMG_20200817_094023823.jpg" alt="khalid_hussain" width="500" height="650" />
+          <Image src="/IMG_20200817_094023823.jpg" alt="khalid_hussain" width="500" height="650" ></Image>
         </div>
         <div className="my-5 mx-5" style={{ paddingTop: "6rem" }}>
           <h1>Khalid hussain </h1>
