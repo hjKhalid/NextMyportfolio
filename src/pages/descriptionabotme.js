@@ -8,11 +8,11 @@ function descriptionabotme() {
     return (
         <div style={{ color: "white" }}>
 
-            <div className='currentLocation' style={{ display: "flex" }}>
-                <div className='img'>
-                    <img src="/pexels-vivek-chugh-739987.jpg" alt="" width="650" height="600"></img>
+            <div className='  currentLocation my-3' style={{ display: "flex" }}>
+                <div className=' container mx-3 img'>
+                    <img src="/pexels-vivek-chugh-739987.jpg" alt="" width="700" height="600"></img>
                 </div>
-                <div className='LocationDescriptio'>
+                <div className='container LocationDescriptio'>
                     <h3><LocationOnSharpIcon />Current location</h3>
                     < hr style={{ color: "white" }} />
                     <h4>HSR Layout Bengluru Kaanataka</h4>
@@ -30,12 +30,13 @@ function descriptionabotme() {
                 </div>
 
             </div>
-            <div className='NativePlace' style={{ display: "flex" }}>
-                <div className='img' >
-                    <img src="/pexels-dipanjan-saha-5183011.jpg" alt="" width="650" height="600"></img>
+            <div className='NativePlace my-3'  style={{ display: "flex" }}>
+                <div className='container mx-3 img' >
+                    <img src="/pexels-dipanjan-saha-5183011.jpg" alt="" width="700" height="600"></img>
                 </div>
-                <div className='NativePlaceDescriptio'>
+                <div className=' container NativePlaceDescriptio'>
                     <h3><HomeWorkSharpIcon />My Native</h3>
+                    < hr style={{ color: "white" }} />
                     <h4>Varanasi UP</h4>
                     <p>Varanasi, also known as Benares or Kashi, is a historic city located on the banks of the Ganges River in the northern Indian state of Uttar Pradesh. It is one of the oldest continuously inhabited cities in the world and is considered to be a sacred city in Hinduism, Buddhism, and Jainism.
 
@@ -51,12 +52,13 @@ function descriptionabotme() {
                 </div>
 
             </div>
-            <div className='Education' style={{ display: "flex" }}>
-                <div className='img'>
-                    <img src="/pexels-pixabay-159866.jpg" alt="" width="650" height="600"></img>
+            <div className='Education my-3' style={{ display: "flex" }}>
+                <div className='container mx-3 img'>
+                    <img src="/pexels-pixabay-159866.jpg" alt="" width="700" height="600"></img>
                 </div>
-                <div className='EducationDescriptioon'>
+                <div className=' container EducationDescriptioon'>
                     <h3><SchoolSharpIcon />Educaion</h3>
+                    < hr style={{ color: "white" }} />
                     <h3>Gradgution</h3>
                     <h4>B,Tech(Instrumentation and control engineering)</h4>
                     <h4>IERT Allahabad</h4>
@@ -71,12 +73,13 @@ function descriptionabotme() {
                 </div>
 
             </div>
-            <div className='Skillset' style={{ display: "flex" }}>
-                <div className='img'>
-                    <img src="/pexels-sora-shimazaki-5926382.jpg" alt="" width="650" height="600"></img>
+            <div className='Skillset my-3' style={{ display: "flex" }}>
+                <div className='container mx-3 img'>
+                    <img src="/pexels-sora-shimazaki-5926382.jpg" alt="" width="700" height="600"></img>
                 </div>
-                <div className='SkillsetDescriptioon'>
+                <div className=' container SkillsetDescriptioon'>
                     <h3><DownhillSkiingSharpIcon />Skills Set</h3>
+                    < hr style={{ color: "white" }} />
                     <ul>
                         <li>Java</li>
                         <li>JavaScript</li>
@@ -99,13 +102,14 @@ function descriptionabotme() {
                 </div>
 
             </div>
-            <div className='Hobby' style={{ display: "flex" }}>
-                <div className='img'>
-                    <img src="/pexels-craig-adderley-1767014.jpg" alt="" width="650" height="600"></img>
+            <div className='Hobby my-3' style={{ display: "flex" }}>
+                <div className=' container mx-3 img'>
+                    <img src="/pexels-craig-adderley-1767014.jpg" alt="" width="700" height="600"></img>
                 </div>
-                <div className='Hobby
+                <div className=' container Hobby
              Descriptioon'>
                     <h3><SportsGymnasticsSharpIcon />My hobbies</h3>
+                    < hr style={{ color: "white" }} />
 
 
                     <h4> Playing badminton </h4>

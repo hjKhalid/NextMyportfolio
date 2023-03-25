@@ -2,7 +2,7 @@ import Image from "next/image"
 import styles from '@/styles/Home.module.css'
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 
-
+import Link from 'next/link';
 
 function HomePageDescription() {
   return (
@@ -23,7 +23,7 @@ function HomePageDescription() {
             Through my portfolio website, I aim to showcase my proficiency in various frontend technologies such as HTML,
             CSS, JavaScript, React, and Next.js, as well as my ability to create visually appealing designs that are optimized for performance and accessibility.
           </h6>
-          <div>Know Me More<a href="/AboutME"><ArrowForwardIosSharpIcon /></a></div>
+          <div>Know Me More<Link href="/AboutME"><ArrowForwardIosSharpIcon /></Link></div>
         </div>
       </div>
     </div>
