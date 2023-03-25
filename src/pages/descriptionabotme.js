@@ -117,13 +117,13 @@ function descriptionabotme() {
                     <p>
                         Is a great way to stay active and improve your physical fitness. It can help improve your hand-eye coordination, balance, and agility, as well as provide a fun and competitive way to stay in shape.
                         Badminton is a sport that can be played indoors or outdoors, making it a great option for different seasons or weather conditions. You can play casually with friends or family, or join a local league or club to take your skills to the next level.
-                        Badminton is a sport that can be played at different levels of intensity, making it suitable for players of all ages and skill levels. Whether you're looking to play for fun or compete at a high level, there's always room to improve and challenge yourself.
+                        Badminton is a sport that can be played at different levels of intensity, making it suitable for players of all ages and skill levels. Whether you&apos;re looking to play for fun or compete at a high level, there&apos;s always room to improve and challenge yourself.
                         Reading books:
                     </p>
                     <h4>Reading books </h4>
                     <p>Is a fantastic way to learn, grow, and expand your knowledge. It allows you to explore different perspectives, ideas, and worlds, as well as improve your vocabulary and critical thinking skills.
                         Reading books can also be a great way to unwind and relax after a long day. It provides an escape from reality and allows you to lose yourself in a good story.
-                        With so many different genres and styles of books available, there's always something new to discover and explore. Whether you prefer fiction or non-fiction, mystery or romance, there's a book out there for everyone.
+                        With so many different genres and styles of books available, there&apos;s always something new to discover and explore. Whether you prefer fiction or non-fiction, mystery or romance, there&apos;s a book out there for everyone.
                         Overall, your hobbies of playing badminton and reading books provide a great balance of physical and mental stimulation. They allow you to challenge yourself, improve your skills, and expand your knowledge in different ways.
                     </p>
 

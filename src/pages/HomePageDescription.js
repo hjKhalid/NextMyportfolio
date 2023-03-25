@@ -19,7 +19,7 @@ function HomePageDescription() {
           <h6 className="my-4" style={{ fontSize: "18px" }}>
             To secure a position as a Frontend Developer,
             leveraging my expertise in modern frontend technologies to create dynamic and responsive web applications that provide an exceptional user experience.
-            I am passionate about designing and building intuitive user interfaces that enhance the user's engagement with the product.
+            I am passionate about designing and building intuitive user interfaces that enhance the user&apos;s engagement with the product.
             My goal is to utilize my skills and experience in frontend development to help organizations achieve their digital goals and deliver high-quality results that exceed client expectations.
             Through my portfolio website, I aim to showcase my proficiency in various frontend technologies such as HTML,
             CSS, JavaScript, React, and Next.js, as well as my ability to create visually appealing designs that are optimized for performance and accessibility.
