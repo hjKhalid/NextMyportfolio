@@ -81,7 +81,7 @@ function descriptionabotme() {
                 <div className=' container SkillsetDescriptioon'>
                     <h3><DownhillSkiingSharpIcon />Skills Set</h3>
                     < hr style={{ color: "white" }} />
-                    <ul>
+                    <ul className='mx-4'>
                         <li>Java</li>
                         <li>JavaScript</li>
                         <li>HTML</li>
