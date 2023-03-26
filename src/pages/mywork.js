@@ -7,20 +7,23 @@ import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function TitlebarImageList() {
   return (
-    <ImageList sx={{ width: 1550, height: 640 }}>
+    <ImageList sx={{ width: 1540, height: 710 }}>
       <ImageListItem key="Subheader" cols={2}>
         <ListSubheader component="div">Projects</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
-          <img
+          <Image
             src={`${item.img}?w=248&fit=crop&auto=format`}
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
             alt={item.title}
             loading="lazy"
+            width='758'
+            height='400'
           />
           <ImageListItemBar
             title={item.title}
