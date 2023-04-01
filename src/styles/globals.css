@@ -83,6 +83,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: white;
 }
 
 body {
@@ -92,6 +93,7 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     )
+    
     rgb(var(--background-start-rgb));
     background-image: url("https://images.prismic.io/humane-content/add7b40e-15a7-49f8-ad69-e72a1e99c76f_video-background-2-poster.jpeg?auto=compress,format");
 }

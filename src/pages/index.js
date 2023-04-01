@@ -1,9 +1,9 @@
 import Head from 'next/head'
+import Portfolio from './Portfolio'
 import Image from 'next/image'
-import EnableColorOnDarkAppBar from './EnableColorOnDarkAppBar'
+
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import HomePageDescription from "./HomePageDescription"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         {/* <EnableColorOnDarkAppBar/> */}
         <div>
-        <HomePageDescription/>
+        <Portfolio/>
         </div>
         
 
