@@ -35,9 +35,9 @@ const Projects = () => {
             <div className={styles.project2}>
               <div className={styles.rectangle}>
                 <div className={styles.img}>
-                  <Image src="/Duniya_bhar_ki_khabar.gif" alt='' width="500" height="266" />
+                  <Image src="/WeatherApp.gif" alt='' width="500" height="266" />
                 </div>
-                <h4 className={styles.projectHeading} >Duniya_bhar_ki_khabar </h4>
+                <h4 className={styles.projectHeading} style={{textAlign:"center"}}> WeatherApp </h4>
                 <hr className={styles.breakingLine} />
                 <p className={styles.projectPara}>
                   This project is a news application built using React.js and Axios to fetch API data. The application provides users with the latest news articles from different sources around the world. With a simple and user-friendly interface, users can browse news articles by category and search for news articles by keyword. The application uses Axios to fetch data from a News API and provides a responsive design for different screen sizes and devices. Overall, this news application is a great tool for staying up-to-date with the latest news updates.
@@ -52,15 +52,12 @@ const Projects = () => {
 
           </div>
           <div className={styles.project} >
-
-
-
-            <div className={styles.project1}>
+           <div className={styles.project1}>
               <div className={styles.rectangle}>
                 <div className={styles.img}>
-                  <Image src="/Duniya_bhar_ki_khabar.gif" alt='' width="500" height="266" />
+                  <Image src="/text debugger.gif" alt='' width="500" height="266" />
                 </div>
-                <h4 className={styles.projectHeading} >Duniya_bhar_ki_khabar </h4>
+                <h4 className={styles.projectHeading} >Text_debugger </h4>
                 <hr className={styles.breakingLine} />
                 <p className={styles.projectPara}>
                   This project is a news application built using React.js and Axios to fetch API data. The application provides users with the latest news articles from different sources around the world. With a simple and user-friendly interface, users can browse news articles by category and search for news articles by keyword. The application uses Axios to fetch data from a News API and provides a responsive design for different screen sizes and devices. Overall, this news application is a great tool for staying up-to-date with the latest news updates.
@@ -74,9 +71,9 @@ const Projects = () => {
             <div className={styles.project2}>
               <div className={styles.rectangle}>
                 <div className={styles.img}>
-                  <Image src="/Duniya_bhar_ki_khabar.gif" alt='' width="500" height="266" />
+                  <Image src="/DrumKit.gif" alt='' width="500" height="266" />
                 </div>
-                <h4 className={styles.projectHeading} >Duniya_bhar_ki_khabar </h4>
+                <h4 className={styles.projectHeading} >DrumKit </h4>
                 <hr className={styles.breakingLine} />
                 <p className={styles.projectPara}>
                   This project is a news application built using React.js and Axios to fetch API data. The application provides users with the latest news articles from different sources around the world. With a simple and user-friendly interface, users can browse news articles by category and search for news articles by keyword. The application uses Axios to fetch data from a News API and provides a responsive design for different screen sizes and devices. Overall, this news application is a great tool for staying up-to-date with the latest news updates.

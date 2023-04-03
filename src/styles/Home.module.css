@@ -1,7 +1,10 @@
+
+
 /* navbar css */
+
 .navbar {
   height: 60px;
-  width: 1920px;
+  width: 1420px;
   left: 0px;
   top: 0px;
   border-radius: [object Object]px;
@@ -9,6 +12,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
+  box-shadow: 0px 0px 3px 1px #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(221, 29, 29, 0.757));
 
 }
 
@@ -45,7 +50,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding-top: 1rem;
-  margin-left: 25rem;
+  margin-left: 20rem;
 }
 
 .github {
@@ -86,7 +91,7 @@
   display: flex;
   flex-direction: row;
   padding-top: 0.5rem;
-  margin-left: 25rem;
+  margin-left: 20rem;
 
 }
 
@@ -120,6 +125,7 @@
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
+  
   /* identical to box height */
 
 
@@ -136,6 +142,8 @@
   left: 192px;
   top: 294px;
   margin-top: 5rem;
+
+  
 
 
 }
@@ -201,7 +209,7 @@
 /* projects css */
 .Projects {
   width: 1428px;
-  height: 1686px;
+  height: 1850px;
   left: 192px;
   top: 994px;
   color: white;
@@ -223,6 +231,7 @@
 
 .project {
   display: flex;
+  margin-top: 5rem;
 
 }
 
@@ -339,4 +348,331 @@
 
 
   color: #FFFFFF;
+}
+
+/* Technology css */
+.TechnologiesHeading {
+  width: 435px;
+  height: 96px;
+  left: 192px;
+  top: 3009px;
+  margin-left: 4rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.skills {
+  width: 1320px;
+  height: 1150px;
+  left: 300px;
+  top: 3238px;
+
+}
+
+.html {
+  width: 88px;
+  height: 54px;
+  left: 325px;
+  top: 3238px;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.advance {
+  width: 126px;
+  height: 36px;
+  left: 1428px;
+  top: 3256px;
+  padding-top: 2rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.indicator {
+  width: 1320px;
+  height: 32.3px;
+  left: 300px;
+  top: 3292px;
+
+}
+
+.technologiesNmae {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin-top: 2rem;
+}
+
+.rectangle1 {
+  width: 1100px;
+  height: 32.3px;
+  left: 300px;
+  top: 3292px;
+
+  background: #162950;
+  border-radius: 83px;
+  padding-top: 2rem;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+.rectangle2 {
+  width: 800px;
+  height: 32px;
+  left: 300px;
+  top: 3292px;
+
+
+
+
+  border-radius: 83px;
+}
+
+/* AddtionalSkills css */
+.AdditionalSkill {
+  width: 1320px;
+  height: 450.3px;
+  left: 300px;
+  top: 3238px;
+}
+
+.AdditionalSkillHeading {
+  width: 822px;
+  height: 72px;
+  left: 192px;
+  top: 4303px;
+  margin-left: 5rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.li {
+  width: 106px;
+  height: 54px;
+  left: 300px;
+  top: 4457px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.ul {
+  margin-left: 5rem;
+}
+
+.list {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+/* about page css */
+.About {
+  width: 1659px;
+  height: 597px;
+  left: 142px;
+  top: 5012px;
+}
+
+.abotHeading {
+  width: 319px;
+  height: 96px;
+  left: 192px;
+  top: 5012px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.year {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currentYear {
+  width: 78px;
+  height: 54px;
+  left: 1565px;
+  top: 5195px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.timeline {
+
+  width: 1320px;
+  height: 32px;
+  left: 300px;
+  top: 5249px;
+}
+
+.rectangle5 {
+  display: flex;
+
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  width: 1125px;
+  height: 12px;
+  left: 315px;
+  top: 5259px;
+
+  background: #FFFFFF;
+}
+
+.ellipse {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  left: 300px;
+  top: 5249px;
+
+  background: #FFFFFF;
+}
+
+.experience {
+  display: flex;
+
+}
+
+.experienceHeading {
+  width: 394px;
+  height: 328px;
+  left: 1407px;
+  top: 5281px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: start;
+
+  color: #FFFFFF;
+}
+
+/* footer css */
+.Footer {
+  display: flex;
+  width: 1150px;
+  height: 126px;
+  left: 259px;
+  top: 5954px;
+  
+
+}
+
+.call {
+  height: 126px;
+  left: 259px;
+  top: 5954px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.email {
+  width: 288px;
+  height: 126px;
+  left: 665px;
+  top: 5954px;
+  margin-left: 2rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.group21 {
+  display: flex;
+  margin-left: 20rem;
+  padding-left: 9rem;
+  margin-top: 3rem;
+  width: 348px;
+  height: 72px;
+  left: 1312px;
+  top: 5981px;
+}
+
+.github1 {
+  width: 72px;
+  height: 72px;
+  left: calc(50% - 72px/2 + 388px);
+  top: 5981px;
+  color: white;
+
+}
+
+.linkedin1 {
+  width: 72px;
+  height: 72px;
+  left: calc(50% - 72px/2 + 525px);
+  top: 5981px;
+  color: white;
+  border-radius: 3px;
 }
