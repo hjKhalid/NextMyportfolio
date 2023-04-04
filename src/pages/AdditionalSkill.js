@@ -5,7 +5,7 @@ const AdditionalSkill = () => {
   return (
     <div>
         <div className={styles.AdditionalSkill}>
-            <h1 className={styles.AdditionalSkillHeading}> Additional technologies and skills</h1>
+            <h1 className={styles.AdditionalSkillHeading}>Additional Technologies And Skills</h1>
             <div className='container' >
                 <div className={styles.list}>
                 <ul className={styles.ul} >

@@ -1,6 +1,7 @@
 /* navbar css */
 
 .navbar {
+  position: sticky;
   height: 60px;
   width: 1420px;
   left: 0px;
@@ -689,6 +690,7 @@
 
   /* navbar css for 768px screen */
   .navbar {
+    position: sticky;
     height: 70px;
     width: 665px;
   }
@@ -696,6 +698,10 @@
   .navigationPage {
     display: none;
   }
+  .social{
+    margin-left: 25rem;
+  }
+  
 
 
 
@@ -788,8 +794,10 @@
     height: 72px;
     font-size: 40px;
     line-height: 65px;
+    margin-left: 2rem;
 
   }
+  
 
 
 
