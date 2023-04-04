@@ -3,16 +3,34 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 
 const Navbar = () => {
     const handleOnClickAboutMe = () => {
+        const element =document.getElementById('sectionAboutme');
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
 
     }
     const handleOnClickTechnologies = () => {
+        const element =document.getElementById('sectionTechnologies');
+        console.log(element);
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
 
+    
     }
     const handleOnClickProjects = () => {
+        const element =document.getElementById('sectionProject');
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
 
     }
     return (
@@ -32,10 +50,10 @@ const Navbar = () => {
                 </div>
                 <div className={styles.social}>
                     <div className={styles.github}>
-                        <GitHubIcon />
+                        <Link href="https://github.com/hjKhalid"><GitHubIcon /></Link>
                     </div>
                     <div className={styles.linkedInIcon}>
-                        <LinkedInIcon />
+                       <Link href="https://www.linkedin.com/in/khalid-hussain-9129931ab/"> <LinkedInIcon /></Link>
                     </div>
                 </div>
             </div>

@@ -588,6 +588,7 @@
 
 .experience {
   display: flex;
+  padding-right: 1rem;
 
 }
 
@@ -596,13 +597,15 @@
   height: 328px;
   left: 1407px;
   top: 5281px;
+  margin-top: 1rem;
+ padding-right: 4rem;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 42px;
-  text-align: start;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
 
   color: #FFFFFF;
 }
