@@ -8,6 +8,8 @@ import Link from 'next/link';
 
 
 const Projects = () => {
+  let heightSize= 266;
+  let widthSize=500 
   return (
     <>
       <div className='container'>
@@ -20,7 +22,7 @@ const Projects = () => {
             <div className={styles.project1}>
               <div className={styles.rectangle}>
                 <div className={styles.img}>
-                  <Image src="/Duniya_bhar_ki_khabar.gif" alt='' width="500" height="266" />
+                  <Image src="/Duniya_bhar_ki_khabar.gif" alt=''  width={widthSize} height={heightSize} />
                 </div>
                 <h4 className={styles.projectHeading} >Duniya_bhar_ki_khabar </h4>
                 <hr className={styles.breakingLine} />

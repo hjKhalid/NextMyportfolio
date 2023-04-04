@@ -82,7 +82,7 @@
 html,
 body {
   max-width: 1440px;
-  margin-left: 1.6rem;
+  margin-left: 0.2rem;
   overflow-x: hidden;
   color: white;
 }
