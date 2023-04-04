@@ -16,7 +16,7 @@ const AdditionalSkill = () => {
                 <ul  className={styles.ul}>
                     <li className={styles.li}>JAVA</li>
                     <li className={styles.li}>Wordpress</li>
-                    <li className={styles.li}>Intellije</li>
+                    <li className={styles.li}>Intellij_Idea</li>
                 </ul>
 
                 </div>
