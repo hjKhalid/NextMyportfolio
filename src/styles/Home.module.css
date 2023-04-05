@@ -909,7 +909,7 @@
 /* media quarie for mobile screen 320px to 760px */
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:420px){
 
 
   .navbar {
@@ -1228,4 +1228,352 @@
     left: 1312px;
     top: 5981px;
   }
+}
+
+/* media quaries for screen 425px */
+
+@media screen and (min-width:425px) and (max-width:760px) {
+  .navbar {
+    position: sticky;
+    height: 70px;
+    width: 410px;
+  }
+
+  .navigationPage {
+    display: none;
+  }
+
+  .social {
+    margin-left: 10rem;
+  }
+
+
+
+
+  /* hero section css  */
+  .hero {
+    color: #FFFFFF;
+    width: 410px;
+    height: 790px;
+    left: 192px;
+    top: 294px;
+    margin-top: 5rem;
+
+  }
+
+  .btn {
+    width: 120px;
+    height: 80px;
+    
+
+
+  }
+
+  .btnPara {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 42px;
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .para {
+    width: 400px;
+    height: 650px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 40px;
+
+  }
+
+  .heading {
+    width: 260px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 96px;
+
+  }
+
+  /* project section media quaries */
+
+  .Projects {
+    width: 410px;
+    height: 2600px;
+    left: 192px;
+    top: 994px;
+    color: white;
+    margin-top: 10rem;
+  }
+
+
+  .project {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .ProjectBtn{
+    margin-top: 6rem;
+  }
+  .projectPara{
+    width: 370px;
+    line-height: 20px;
+    padding-left: 0.5rem;
+  }
+  .projectHeading{
+    /* width: 300px; */
+    width: 183px;
+    height: 32px;
+    left: 483px;
+    top: 1499px;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 88.5%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  .breakingLine {
+    width: 260px;
+    height: 4px;
+    left: 425px;
+    top: 1556px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+  }
+
+  .rectangle {
+    width: 380px;
+    height: 500px;
+    left: 300px;
+    top: 1183px;
+    margin-left: 0.1rem;
+
+    background: #0F1624;
+    box-shadow: 0px 0px 12px #FFFFFF;
+    border-radius: 50px 0px;
+  }
+
+  .project1 {
+    width: 310px;
+    height: 600px;
+    left: 250px;
+    top: 1183px;
+    margin-left: 0rem;
+    padding-left: 0rem;
+  }
+
+  .img {
+  display: none;
+  }
+  .my-image-wrapper {
+    width: 50%;
+  }
+
+
+  .project2 {
+    margin-left: 0rem;
+   
+  }
+
+  /* technologies css */
+
+
+  .TechnologiesHeading {
+    width: 390px;
+    font-size: 30px;
+    margin-left: 1rem;
+  }
+
+  .skills {
+    width: 390px;
+    height: 1150px;
+
+  }
+
+ 
+  .rectangle1 {
+    width: 370px;
+  }
+
+  .technologiesNmae {
+
+    width: 370px;
+
+  }
+  .html{
+    font-size: 20px;
+  }
+  .advance{
+    padding-left: 3rem;
+    font-size: 15px;
+  }
+
+
+  /* Addition skill */
+
+  .AdditionalSkill {
+    width: 390px;
+    height: 300px;
+    left: 300px;
+    top: 3238px;
+  }
+
+  .AdditionalSkillHeading {
+    width: 290px;
+    height: 72px;
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 40px;
+    margin-left: 2rem;
+
+  }
+  .list{
+    margin-top: 0rem;
+    width: 370px;
+  }
+  .li{
+   font-size: 15px
+  }
+  .ul{
+    margin-left: 2rem;
+  }
+
+
+
+
+
+  /* about page css */
+
+
+
+  .About {
+    width: 390px;
+    height: 1100px;
+    left: 142px;
+    top: 5012px;
+  }
+  .abotHeading{
+    font-size: 30px;
+  }
+
+
+  .year {
+    display: none;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+  }
+   .currentYear{
+    display: none;
+   }
+
+  .timeline {
+
+    width: 290px;
+
+  }
+
+  .rectangle5 {
+    display: none;
+
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width: 650px;
+
+  }
+  .experience{
+    flex-direction: column;
+    height: 1000px;
+  }
+
+
+
+  .experienceHeading {
+    
+    width: 390px;
+    height: 328px;
+    left: 1407px;
+    top: 5281px;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+  }
+
+  /* footer media quaries for tablet */
+
+  .Footer {
+    display: flex;
+    width: 650px;
+    height: 126px;
+    left: 259px;
+    top: 5954px;
+
+
+  }
+
+  .call {
+    height: 100px;
+    left: 259px;
+    top: 5954px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+  }
+
+  .email {
+    width: 100px;
+    height: 126px;
+    left: 665px;
+    top: 5954px;
+    margin-left: 2rem;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+  }
+
+  .group21 {
+    display: flex;
+    margin-left: 7rem;
+    padding-left: 9rem;
+    margin-top: 2rem;
+    width: 348px;
+    height: 72px;
+    left: 1312px;
+    top: 5981px;
+  }
+  .Footer{
+    margin-top: 3rem;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+  }
+  .call{
+    padding-left: 3rem;
+    align-items: center;
+    font-size: 32px;
+  }
+  .email{
+    width: 350px;
+    font-size: 28px;
+  }
+  .group21{
+    padding-left: 2rem;
+  }
+  
 }
