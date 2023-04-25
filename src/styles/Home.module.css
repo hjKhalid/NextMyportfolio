@@ -588,6 +588,7 @@
 
 .experience {
   display: flex;
+  flex-direction: row;
   padding-right: 1rem;
 
 }
@@ -693,7 +694,8 @@
   .navbar {
     position: sticky;
     height: 70px;
-    width: 665px;
+   min-width:  665px;
+   max-width: 1010px;
   }
 
   .navigationPage {
@@ -915,7 +917,8 @@
   .navbar {
     position: sticky;
     height: 70px;
-    width: 310px;
+    min-width: 300px;
+    max-width: 410px;
   }
 
   .navigationPage {
@@ -932,7 +935,8 @@
   /* hero section css  */
   .hero {
     color: #FFFFFF;
-    width: 310px;
+   min-width: 310px;
+   max-width: 410px;
     height: 792px;
     left: 192px;
     top: 294px;
@@ -1170,6 +1174,7 @@
     height: 328px;
     left: 1407px;
     top: 5281px;
+    flex-direction: column;
     margin-top: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -1236,7 +1241,8 @@
   .navbar {
     position: sticky;
     height: 70px;
-    width: 410px;
+    min-width: 410px;
+    max-width: 750px;
   }
 
   .navigationPage {
@@ -1253,7 +1259,9 @@
   /* hero section css  */
   .hero {
     color: #FFFFFF;
-    width: 410px;
+    /* width: 410px; */
+    min-width: 410px;
+    max-width: 750px;
     height: 790px;
     left: 192px;
     top: 294px;
@@ -1434,7 +1442,8 @@
   }
   .list{
     margin-top: 0rem;
-    width: 370px;
+    min-width: 410px;
+    max-width: 750px;
   }
   .li{
    font-size: 15px
@@ -1452,7 +1461,8 @@
 
 
   .About {
-    width: 390px;
+    min-width: 410px;
+    max-width: 750px;
     height: 1100px;
     left: 142px;
     top: 5012px;
@@ -1464,7 +1474,8 @@
 
   .year {
     display: none;
-    width: 290px;
+    min-width: 410px;
+    max-width: 750px;
     display: flex;
     justify-content: space-between;
   }
@@ -1488,14 +1499,15 @@
   }
   .experience{
     flex-direction: column;
-    height: 1000px;
+    height:1200px;
   }
 
 
 
   .experienceHeading {
     
-    width: 390px;
+    min-width: 410px;
+    max-width: 750px;
     height: 328px;
     left: 1407px;
     top: 5281px;
